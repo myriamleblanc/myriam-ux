@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myriam - UX/UI Designer</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Myriam</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#case-study">Case Study</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Myriam</h1>
+            <p class="tagline">Crafting intuitive digital experiences through thoughtful design</p>
+            <div class="image-container">
+                <img src="/profile-color.jpg" alt="Myriam" class="profile-image color">
+                <img src="/profile-bw.jpg" alt="Myriam" class="profile-image bw">
+                <div class="hover-overlay"></div>
+            </div>
+            <a href="#about" class="cta-button">Explore My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a UX/UI designer passionate about creating meaningful digital experiences that blend aesthetics with functionality. With a background in game design and user research, I focus on crafting intuitive interfaces that delight users while solving real problems.</p>
+                    <div class="tools">
+                        <h3>Tools I Love</h3>
+                        <ul class="tools-list">
+                            <li><i class="fas fa-paint-brush"></i> Figma</li>
+                            <li><i class="fas fa-book"></i> Notion</li>
+                            <li><i class="fas fa-gamepad"></i> Godot</li>
+                            <li><i class="fas fa-code"></i> Cursor</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="case-study" class="case-study">
+        <div class="container">
+            <h2>Case Study: Tag 'Em All</h2>
+            <div class="case-study-content">
+                <div class="case-study-section">
+                    <button class="section-toggle">
+                        <h3>Challenge</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="section-content">
+                        <p>Design a mobile game that encourages social interaction and physical activity while maintaining engagement through gamification elements.</p>
+                    </div>
+                </div>
+
+                <div class="case-study-section">
+                    <button class="section-toggle">
+                        <h3>Process</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="section-content">
+                        <p>Conducted user research, created wireframes, developed interactive prototypes, and iterated based on user feedback to create an engaging game experience.</p>
+                    </div>
+                </div>
+
+                <div class="case-study-section">
+                    <button class="section-toggle">
+                        <h3>Screens</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="section-content">
+                        <div class="screens-grid">
+                            <div class="screen-placeholder"></div>
+                            <div class="screen-placeholder"></div>
+                            <div class="screen-placeholder"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-study-section">
+                    <button class="section-toggle">
+                        <h3>Learnings</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="section-content">
+                        <p>Key insights about user engagement, social interaction patterns, and the importance of balancing fun with physical activity.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-content">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Myriam. All rights reserved.</p>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html> 
